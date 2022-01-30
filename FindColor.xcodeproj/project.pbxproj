@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8CE42D27A6F7EB00A45D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */; };
+		3A8CE42F27A6F7EB00A45D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */; };
+		3A8CE43127A6F7EB00A45D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE43027A6F7EB00A45D40 /* ViewController.swift */; };
+		3A8CE43427A6F7EB00A45D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43227A6F7EB00A45D40 /* Main.storyboard */; };
+		3A8CE43627A6F7EC00A45D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */; };
+		3A8CE43927A6F7EC00A45D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43727A6F7EC00A45D40 /* LaunchScreen.storyboard */; };
+		3A8CE44327A6FC6000A45D40 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */; };
+		3A8CE44527A6FC9800A45D40 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44427A6FC9800A45D40 /* TabBarController.swift */; };
+		6085DF11C32C7B54293C1DB2 /* Pods_FindColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CA9A5019E39ED73C7B71E8 /* Pods_FindColor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CA9A5019E39ED73C7B71E8 /* Pods_FindColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8CE42927A6F7EB00A45D40 /* FindColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A8CE43027A6F7EB00A45D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A8CE43327A6F7EB00A45D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8CE43827A6F7EC00A45D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A8CE43A27A6F7EC00A45D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3A8CE44427A6FC9800A45D40 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C841A36C0245326C817CF374 /* Pods-FindColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindColor.debug.xcconfig"; path = "Target Support Files/Pods-FindColor/Pods-FindColor.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB18E32FC3C999CA5FF88F9 /* Pods-FindColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindColor.release.xcconfig"; path = "Target Support Files/Pods-FindColor/Pods-FindColor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8CE42627A6F7EB00A45D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6085DF11C32C7B54293C1DB2 /* Pods_FindColor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8CE42027A6F7EA00A45D40 = {
+			isa = PBXGroup;
+			children = (
+				3A8CE42B27A6F7EB00A45D40 /* FindColor */,
+				3A8CE42A27A6F7EB00A45D40 /* Products */,
+				FBA62D71526B7E67A0CF5CA1 /* Pods */,
+				AB1534093FDDADC52595E4FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8CE42A27A6F7EB00A45D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CE42927A6F7EB00A45D40 /* FindColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8CE42B27A6F7EB00A45D40 /* FindColor */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CE44427A6FC9800A45D40 /* TabBarController.swift */,
+				3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */,
+				3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */,
+				3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */,
+				3A8CE43027A6F7EB00A45D40 /* ViewController.swift */,
+				3A8CE43227A6F7EB00A45D40 /* Main.storyboard */,
+				3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */,
+				3A8CE43727A6F7EC00A45D40 /* LaunchScreen.storyboard */,
+				3A8CE43A27A6F7EC00A45D40 /* Info.plist */,
+			);
+			path = FindColor;
+			sourceTree = "<group>";
+		};
+		AB1534093FDDADC52595E4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CA9A5019E39ED73C7B71E8 /* Pods_FindColor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA62D71526B7E67A0CF5CA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C841A36C0245326C817CF374 /* Pods-FindColor.debug.xcconfig */,
+				FBB18E32FC3C999CA5FF88F9 /* Pods-FindColor.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8CE42827A6F7EB00A45D40 /* FindColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8CE43D27A6F7EC00A45D40 /* Build configuration list for PBXNativeTarget "FindColor" */;
+			buildPhases = (
+				075E09F08D32862D2EC3C001 /* [CP] Check Pods Manifest.lock */,
+				3A8CE42527A6F7EB00A45D40 /* Sources */,
+				3A8CE42627A6F7EB00A45D40 /* Frameworks */,
+				3A8CE42727A6F7EB00A45D40 /* Resources */,
+				7BFF79F2B23BA01582A6F375 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindColor;
+			productName = FindColor;
+			productReference = 3A8CE42927A6F7EB00A45D40 /* FindColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8CE42127A6F7EA00A45D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3A8CE42827A6F7EB00A45D40 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3A8CE42427A6F7EA00A45D40 /* Build configuration list for PBXProject "FindColor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8CE42027A6F7EA00A45D40;
+			productRefGroup = 3A8CE42A27A6F7EB00A45D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8CE42827A6F7EB00A45D40 /* FindColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8CE42727A6F7EB00A45D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CE43927A6F7EC00A45D40 /* LaunchScreen.storyboard in Resources */,
+				3A8CE43627A6F7EC00A45D40 /* Assets.xcassets in Resources */,
+				3A8CE43427A6F7EB00A45D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075E09F08D32862D2EC3C001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindColor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFF79F2B23BA01582A6F375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindColor/Pods-FindColor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindColor/Pods-FindColor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindColor/Pods-FindColor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8CE42527A6F7EB00A45D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CE44327A6FC6000A45D40 /* AppCoordinator.swift in Sources */,
+				3A8CE43127A6F7EB00A45D40 /* ViewController.swift in Sources */,
+				3A8CE42D27A6F7EB00A45D40 /* AppDelegate.swift in Sources */,
+				3A8CE44527A6FC9800A45D40 /* TabBarController.swift in Sources */,
+				3A8CE42F27A6F7EB00A45D40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8CE43227A6F7EB00A45D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8CE43327A6F7EB00A45D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A8CE43727A6F7EC00A45D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8CE43827A6F7EC00A45D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8CE43B27A6F7EC00A45D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A8CE43C27A6F7EC00A45D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8CE43E27A6F7EC00A45D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C841A36C0245326C817CF374 /* Pods-FindColor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTJ8ACNPDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindColor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Taewoo.FindColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8CE43F27A6F7EC00A45D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB18E32FC3C999CA5FF88F9 /* Pods-FindColor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTJ8ACNPDZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindColor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Taewoo.FindColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8CE42427A6F7EA00A45D40 /* Build configuration list for PBXProject "FindColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CE43B27A6F7EC00A45D40 /* Debug */,
+				3A8CE43C27A6F7EC00A45D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8CE43D27A6F7EC00A45D40 /* Build configuration list for PBXNativeTarget "FindColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CE43E27A6F7EC00A45D40 /* Debug */,
+				3A8CE43F27A6F7EC00A45D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8CE42127A6F7EA00A45D40 /* Project object */;
+}
