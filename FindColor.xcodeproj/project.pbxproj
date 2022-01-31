@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		3A8CE42D27A6F7EB00A45D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */; };
 		3A8CE42F27A6F7EB00A45D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */; };
-		3A8CE43127A6F7EB00A45D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE43027A6F7EB00A45D40 /* ViewController.swift */; };
+		3A8CE43127A6F7EB00A45D40 /* RandomImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE43027A6F7EB00A45D40 /* RandomImgVC.swift */; };
 		3A8CE43427A6F7EB00A45D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43227A6F7EB00A45D40 /* Main.storyboard */; };
 		3A8CE43627A6F7EC00A45D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */; };
 		3A8CE43927A6F7EC00A45D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CE43727A6F7EC00A45D40 /* LaunchScreen.storyboard */; };
 		3A8CE44327A6FC6000A45D40 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */; };
 		3A8CE44527A6FC9800A45D40 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44427A6FC9800A45D40 /* TabBarController.swift */; };
+		3A8CE44727A79B9100A45D40 /* RandomImgListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44627A79B9100A45D40 /* RandomImgListViewModel.swift */; };
+		3A8CE44927A79C2E00A45D40 /* RandomImgService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44827A79C2E00A45D40 /* RandomImgService.swift */; };
+		3A8CE44B27A7D1A600A45D40 /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44A27A7D1A600A45D40 /* RandomImage.swift */; };
+		3A8CE44D27A7D7EE00A45D40 /* RandomImgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44C27A7D7EE00A45D40 /* RandomImgViewModel.swift */; };
+		3A8CE44F27A7E1E900A45D40 /* ImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CE44E27A7E1E800A45D40 /* ImgCollectionViewCell.swift */; };
 		6085DF11C32C7B54293C1DB2 /* Pods_FindColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CA9A5019E39ED73C7B71E8 /* Pods_FindColor.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +28,18 @@
 		3A8CE42927A6F7EB00A45D40 /* FindColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A8CE43027A6F7EB00A45D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A8CE43027A6F7EB00A45D40 /* RandomImgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImgVC.swift; sourceTree = "<group>"; };
 		3A8CE43327A6F7EB00A45D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8CE43827A6F7EC00A45D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8CE43A27A6F7EC00A45D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		3A8CE44427A6FC9800A45D40 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3A8CE44627A79B9100A45D40 /* RandomImgListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomImgListViewModel.swift; path = "../../../스터디/RxMVVMCJsonTblViewExample/RxMVVMCJsonTblViewExample/RandomImgListViewModel.swift"; sourceTree = "<group>"; };
+		3A8CE44827A79C2E00A45D40 /* RandomImgService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomImgService.swift; path = "../../../스터디/RxMVVMCJsonTblViewExample/RxMVVMCJsonTblViewExample/RandomImgService.swift"; sourceTree = "<group>"; };
+		3A8CE44A27A7D1A600A45D40 /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomImage.swift; path = "../../../스터디/RxMVVMCJsonTblViewExample/RxMVVMCJsonTblViewExample/RandomImage.swift"; sourceTree = "<group>"; };
+		3A8CE44C27A7D7EE00A45D40 /* RandomImgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImgViewModel.swift; sourceTree = "<group>"; };
+		3A8CE44E27A7E1E800A45D40 /* ImgCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgCollectionViewCell.swift; sourceTree = "<group>"; };
 		C841A36C0245326C817CF374 /* Pods-FindColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindColor.debug.xcconfig"; path = "Target Support Files/Pods-FindColor/Pods-FindColor.debug.xcconfig"; sourceTree = "<group>"; };
 		FBB18E32FC3C999CA5FF88F9 /* Pods-FindColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindColor.release.xcconfig"; path = "Target Support Files/Pods-FindColor/Pods-FindColor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,11 +81,16 @@
 				3A8CE44227A6FC6000A45D40 /* AppCoordinator.swift */,
 				3A8CE42C27A6F7EB00A45D40 /* AppDelegate.swift */,
 				3A8CE42E27A6F7EB00A45D40 /* SceneDelegate.swift */,
-				3A8CE43027A6F7EB00A45D40 /* ViewController.swift */,
+				3A8CE43027A6F7EB00A45D40 /* RandomImgVC.swift */,
 				3A8CE43227A6F7EB00A45D40 /* Main.storyboard */,
 				3A8CE43527A6F7EC00A45D40 /* Assets.xcassets */,
 				3A8CE43727A6F7EC00A45D40 /* LaunchScreen.storyboard */,
 				3A8CE43A27A6F7EC00A45D40 /* Info.plist */,
+				3A8CE44627A79B9100A45D40 /* RandomImgListViewModel.swift */,
+				3A8CE44827A79C2E00A45D40 /* RandomImgService.swift */,
+				3A8CE44A27A7D1A600A45D40 /* RandomImage.swift */,
+				3A8CE44C27A7D7EE00A45D40 /* RandomImgViewModel.swift */,
+				3A8CE44E27A7E1E800A45D40 /* ImgCollectionViewCell.swift */,
 			);
 			path = FindColor;
 			sourceTree = "<group>";
@@ -94,7 +109,6 @@
 				C841A36C0245326C817CF374 /* Pods-FindColor.debug.xcconfig */,
 				FBB18E32FC3C999CA5FF88F9 /* Pods-FindColor.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,9 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8CE44B27A7D1A600A45D40 /* RandomImage.swift in Sources */,
+				3A8CE44D27A7D7EE00A45D40 /* RandomImgViewModel.swift in Sources */,
+				3A8CE44F27A7E1E900A45D40 /* ImgCollectionViewCell.swift in Sources */,
 				3A8CE44327A6FC6000A45D40 /* AppCoordinator.swift in Sources */,
-				3A8CE43127A6F7EB00A45D40 /* ViewController.swift in Sources */,
+				3A8CE44927A79C2E00A45D40 /* RandomImgService.swift in Sources */,
+				3A8CE43127A6F7EB00A45D40 /* RandomImgVC.swift in Sources */,
 				3A8CE42D27A6F7EB00A45D40 /* AppDelegate.swift in Sources */,
+				3A8CE44727A79B9100A45D40 /* RandomImgListViewModel.swift in Sources */,
 				3A8CE44527A6FC9800A45D40 /* TabBarController.swift in Sources */,
 				3A8CE42F27A6F7EB00A45D40 /* SceneDelegate.swift in Sources */,
 			);
