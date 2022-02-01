@@ -26,17 +26,34 @@ class RandomImgVC: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = viewModel.title
+        navigationItem.rightBarButtonItem = viewModel.refreshBtn
         
         collectionView.rx.setDelegate(self).disposed(by: disposeBag)
         
-        viewModel.fetchRandomImgViewModels().observe(on: MainScheduler.instance).bind(to: collectionView.rx.items(cellIdentifier: "cell", cellType: ImgCollectionViewCell.self)) { index, viewModel, cell in
-            cell.randomIV.image = viewModel.thumbImg
-        }.disposed(by: disposeBag)
+        getImgListData()
         
         collectionView.rx.modelSelected(RandomImgViewModel.self)
             .subscribe(onNext: { (model) in
-                print(model)
             }).disposed(by: disposeBag)
+        
+        viewModel.refreshBtn.rx.tap.asDriver()
+            .throttle(.seconds(5))
+            .drive(onNext: { [self]_ in
+                collectionView.dataSource = nil
+                getImgListData()
+            }).disposed(by: disposeBag)
+    }
+    
+    private func presentDetailView(img: RandomImage){
+        
+    }
+    
+    private func getImgListData(){
+        viewModel.fetchRandomImgViewModels()
+            .observe(on: MainScheduler.instance)
+            .bind(to: collectionView.rx.items(cellIdentifier: "cell", cellType: ImgCollectionViewCell.self)) { index, viewModel, cell in
+            cell.randomIV.image = viewModel.thumbImg
+        }.disposed(by: disposeBag)
     }
 }
 
